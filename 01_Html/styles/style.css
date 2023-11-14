@@ -10,5 +10,31 @@ html,body {
 .intro-view {
     height:100%;
     background-image:linear-gradient(45deg,#BFF098,#6FD6FF);
+    display:flex;
+    justify-content: center;
+    align-items: center;
 }
 
+.intro-wrapper {
+    width:960px;
+    display:flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.item {
+    width:250px;
+    height:250px;
+    background:white;
+    border-radius:5px;
+    box-shadow:1px 1px 6px rgba(0, 0, 0, 0.25);
+}
+
+header {
+    height:100px;
+    width:100%;
+    background:white;
+    border-radius:5px;
+    margin-bottom:25px;
+    box-shadow:1px 1px 6px rgba(0, 0, 0, 0.25);
+}
