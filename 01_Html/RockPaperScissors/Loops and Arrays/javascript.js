@@ -1,4 +1,4 @@
-
+/*
 const instruments = ['guitar','bass','drums'];
 
 
@@ -10,7 +10,7 @@ function repeatString(string,num) {
 
 let sumStrings = '';
 
-    for(i = 0; i<num; i++) {
+    for(let i = 0; i<num; i++) {
         
         sumStrings += string;
         console.log(sumStrings);
@@ -84,3 +84,27 @@ for (const person of people) {
 
 refused.textContent = refused.textContent.slice(0,refused.textContent.length-2) + '.';
 admitted.textContent = admitted.textContent.slice(0,admitted.textContent.length-2) + '.';
+
+*/
+
+  function removeFromArray(first, removableNumber) {
+
+let removedList = [];
+
+console.log(first);
+
+let index = first.indexOf(removableNumber);
+
+console.log(index);
+
+if(index>-1) {
+
+    first.splice(index, 1);
+
+}
+
+console.log(first);
+
+  }
+
+removeFromArray([1,2,3,4],3);
