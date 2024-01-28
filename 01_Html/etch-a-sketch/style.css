@@ -1,0 +1,17 @@
+
+.container {
+    margin:50px auto;
+    width:500px;
+    height:500px;
+    display:flex;
+    border:3px solid black;
+    flex-wrap:wrap;
+}
+
+.container div {
+    box-sizing:border-box;
+    width:6.25%;
+    height:6.25%;
+    border:1px solid gray;
+
+}
