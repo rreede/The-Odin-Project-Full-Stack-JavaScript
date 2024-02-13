@@ -1,0 +1,14 @@
+
+.calculator {
+    display:flex;
+    color: black;
+}
+
+button {
+    color:white;
+    background:orange;
+    border-radius:5px;
+    border: 1px solid black;
+    padding: 0 7px;
+    margin-right:6px;
+}

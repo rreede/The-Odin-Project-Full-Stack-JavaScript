@@ -28,13 +28,13 @@ function operate(number1, operator, number2) {
        let result = add(number1, number2);
        return result;
     } else if(operator === '-'){
-        let result = (number1, number2);
+        let result = subtract(number1, number2);
         return result;
     } else if(operator === '*'){
-        let result = (number1, number2);
+        let result = multiply(number1, number2);
         return result;
     } else if(operator === '/') {
-        let result = (number1, number2);
+        let result = divide(number1, number2);
         return result;
     }
 
@@ -50,10 +50,41 @@ let seven = document.querySelector('.seven');
 let eight = document.querySelector('.eight');
 let nine = document.querySelector('.nine');
 let zero = document.querySelector('.zero');
-let add = document.querySelector('.add');
-let subtract = document.querySelector('.subtract');
-let multiply = document.querySelector('.multiply');
-let divide = document.querySelector('.divide');
+let addNumbers = document.querySelector('.add');
+let subtractNumbers = document.querySelector('.subtract');
+let multiplyNumbers = document.querySelector('.multiply');
+let divideNumber = document.querySelector('.divide');
 let equals = document.querySelector('.equals');
 let clear = document.querySelector('.clear');
+let calculation = document.querySelector('.calculation');
+
+one.addEventListener('click', function(e) {
+
+
+});
+
+clear.addEventListener('click', function() {
+
+    console.log('button clicked');
+    calculation.value = '';
+    
+});
+
+
+
+
+
+
+
+function leapYear(year) {
+    if (year % 4 === 0 && (year % 100 !== 0 || year % 400 === 0)) {
+        console.log('This is a leap year');
+        return true;
+    } else {
+        console.log('This is not a leap year');
+        return false;
+    }
+}
+
+
 
