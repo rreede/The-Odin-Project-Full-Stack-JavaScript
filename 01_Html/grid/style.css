@@ -1,0 +1,37 @@
+.wrapper {
+    display:grid;
+    grid-template-columns: 100px 250px 50px;
+    gap:15px;
+}
+
+header {
+    height:50px;
+    grid-column:1/4;
+    background:green;
+}
+
+aside {
+    grid-column:1;
+    grid-row:2/6;
+    background:blue;
+}
+
+
+nav{
+    grid-column:2/4;
+    grid-row:2/4;
+    background:blue;
+}
+
+article {
+    grid-column:2/4;
+    grid-row:4/6;
+    background:blue;
+}
+
+footer {
+    grid-column:1/4;
+    grid-row:6/8;
+    background:darkgray;
+
+}

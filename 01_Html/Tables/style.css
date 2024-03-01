@@ -1,0 +1,10 @@
+table,tr,td {
+    border:1px solid lightgray;
+    border-collapse: collapse;
+    padding:25px;
+}
+
+p {
+    font-size:clamp(0.8rem, 4vh, 2rem);
+    line-height:calc(1.2rem + 4vh);
+}
