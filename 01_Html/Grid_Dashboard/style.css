@@ -1,0 +1,17 @@
+* {
+    padding:0;
+    margin:0;
+}
+.wrapper {
+    display:grid;
+    grid-template-columns: minmax(200px, 1fr) 4fr;
+    grid-template-rows: 100% 100%;
+}
+
+aside {
+    background:red;
+}
+
+main {
+    background:blue;
+}
